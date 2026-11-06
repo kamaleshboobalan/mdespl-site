@@ -1,42 +1,41 @@
-# Metal Drafting Website – Angular 20
+# Metal Drafting Website (Angular 20)
 
-A modern, responsive corporate website developed for **Metal Drafting Engineering Services**, focusing on structural steel detailing, engineering solutions, training, and business information.
+Corporate site for **Metal Drafting Engineering Services** — structural steel detailing, training, and contact.
 
-The website is designed with a clean user interface, responsive layouts, and interactive animations to provide a professional browsing experience across different devices.
+## Stack
 
-### 🛠️ Technology Stack
+- Angular 20 (standalone components)
+- Bootstrap 5 + SCSS
+- Angular Material Icons
+- AOS scroll animations
 
-- **Angular 20** – Frontend framework with standalone components
-- **Bootstrap 5** – Responsive UI framework
-- **SCSS** – Advanced styling and custom design
-- **Angular Material Icons** – UI icons
-- **AOS (Animate On Scroll)** – Scroll-based animations
+## Develop
 
-### ✨ Key Features
+```bash
+npm install
+npm start
+```
 
-- Modern corporate website design
-- Fully responsive layout
-- Structural steel detailing service showcase
-- Engineering training information
-- Interactive navigation
-- Smooth scroll animations
-- Clean and reusable Angular components
-- Mobile-friendly user interface
+App runs at [http://localhost:4200](http://localhost:4200).
 
-### 🎯 Project Objective
+## Production build
 
-To develop a professional online presence for Metal Drafting Engineering Services and showcase its engineering capabilities, structural steel detailing services, and training opportunities.
+```bash
+npm run build
+```
 
-### 👨‍💻 Project Details
+Output: `dist/metaldrafting-website/browser`
 
-- **Project Type:** Corporate Website
-- **Role:** Frontend Web Developer
-- **Framework:** Angular 20
-- **UI Framework:** Bootstrap 5
-- **Styling:** SCSS
+## Deploy to GitHub Pages
 
-### 🚀 Technologies
+```bash
+npm run deploy
+# or
+./deploy-gh-pages.sh
+```
 
-Angular 20 | Bootstrap 5 | SCSS | JavaScript | Angular Material Icons | AOS
+See [DEPLOY.md](./DEPLOY.md).
 
-**Developed with a focus on responsive design, modern UI, and frontend performance.**
+## Legacy
+
+The previous Angular 9 project is kept as `../metaldrafting-website-angular9-backup` for reference.
