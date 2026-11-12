@@ -6,8 +6,8 @@ set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 # Custom domain serves from site root: https://metaldrafting.com/
 BASE_HREF="/"
-CUSTOM_DOMAIN="metaldrafting.com"
-OUT_DIR="dist/metaldrafting-website/browser"
+CUSTOM_DOMAIN=""
+OUT_DIR="dist/mdespl-site/browser"
 
 cd "$REPO_ROOT"
 
